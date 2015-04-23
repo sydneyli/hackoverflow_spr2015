@@ -375,22 +375,23 @@ button.mentor:hover {
 .sponsors {text-align:center;}
 
 /* these logos are too big */
-#twitter {width:15%}
-#apple {width:25%;padding-left:10%;}
-#wics {width:15%; opacity:0.6}
-#robo {width:25%}
+#twitter {height:100px;padding-right:5%;}
+#apple {padding-left:10%;}
+#wics {opacity:0.6}
+#thalmic {height:50px}
 
-.platinum img {width:30%}
-.gold img, .cohost img {width:20%}
-.silver img {width:10%}
-.bronze img {width:10%}
+.platinum img {height:150px}
+.cohost img{height:100px}
+.gold img {height:70px}
+.silver img {height:60px}
+.bronze img {width: 10%}
 
 /*
  * Schedule formatting
  */
 #schedule {
     position:absolute;
-    top:-700px;
+    top:-850px;
     width:100%;
 }
 .schedule {
@@ -409,14 +410,20 @@ button.mentor:hover {
 }
 td {
     text-align:left;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    font-size:20pt
 }
 td.left {
-    text-align:right;
+    text-align:center;
     padding-right:25px;
-    width:50%;
+    width:30%;
+}
+tr.im {
+    background: rgba(25,50,100,.5)
 }
 span.hint {
-    font-size:14pt;
+    font-size:16pt;
 }
 
 /*
